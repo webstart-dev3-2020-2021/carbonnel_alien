@@ -8,50 +8,44 @@ export default function App() {
   return (
           <View style={styles.container}>
             <Row>
-              <Pixels number={1}/>
-              <Pixels number={4} blank/>
-              <Pixels number={1}/>
+              <Pixels number={3}/>
+            </Row>
+            <Row>
+              <Pixels number={7}/>
+            </Row>
+            <Row>
+              <Pixels number={9}/>
             </Row>
             <Row>
               <Pixels number={1}/>
               <Pixels number={2} blank/>
-              <Pixels number={1}/>
-            </Row>
-            <Row>
-              <Pixels number={6}/>
-            </Row>
-            <Row>
-              <Pixels number={2}/>
-              <Pixels number={1} blank/>
               <Pixels number={3}/>
-              <Pixels number={1} blank/>
-              <Pixels number={2}/>
-            </Row>
-            <Row>
-              <Pixels number={11}/>
-            </Row>
-            <Row>
-              <Pixels number={1}/>
-              <Pixels number={1} blank/>
-              <Pixels number={7}/>
-              <Pixels number={1} blank/>
+              <Pixels number={2} blank/>
               <Pixels number={1}/>
             </Row>
             <Row>
-              <Pixels number={1}/>
-              <Pixels number={1} blank/>
-              <Pixels number={1}/>
-              <Pixels number={5} blank/>
-              <Pixels number={1}/>
-              <Pixels number={1} blank/>
-              <Pixels number={1}/>
+              <Pixels number={9}/>
             </Row>
             <Row>
+              <Pixels number={2} blank/>
+              <Pixels number={1} />
               <Pixels number={3} blank/>
-              <Pixels number={2} />
+              <Pixels number={1} />
+              <Pixels number={2} blank/>
+            </Row>
+            <Row>
               <Pixels number={1} blank/>
-              <Pixels number={2} />
-              <Pixels number={3} blank/>
+              <Pixels number={1}/>
+              <Pixels number={1} blank/>
+              <Pixels number={3} />
+              <Pixels number={1} blank/>
+              <Pixels number={1}/>
+              <Pixels number={1} blank/>
+            </Row>
+            <Row>
+              <Pixels number={1}/>
+              <Pixels number={7} blank/>
+              <Pixels number={1}/>
             </Row>
           </View>
   )

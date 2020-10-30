@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   pixel: {
     width: pixeLength,
     height: pixeLength,
-    backgroundColor: '#0f0'
+    backgroundColor: '#00FFFF'
   },
   BlankPixel: {
     backgroundColor: 'transparent'
